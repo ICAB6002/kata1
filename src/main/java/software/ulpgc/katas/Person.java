@@ -1,4 +1,7 @@
 package software.ulpgc.katas;
 
-public record Person() {
+import java.time.LocalDate;
+
+public record Person(String name, LocalDate birthday) {
+
 }
